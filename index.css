@@ -1,3 +1,6 @@
+div,body{
+    margin:0px;
+}
 .container{
     width: 375px;
     margin:0 auto;
@@ -46,30 +49,20 @@
 }
 
 .down_section .login1{
-    /* width: 375px;
-    height: 35px; */
-    /* line-height: 35px; */
-    /* margin-top: 30px; */
     padding-left: 25px;
     position: absolute;
     top: 76px;
-    /* margin-bottom: 20px; */
 }
 .down_section .pwd1{
-    /* width:375px;
-    height:35px; */
-    /* line-height: 35px; */
     padding-left: 25px;
     position: absolute;
     top: 130px;
-    /* margin-/top: 30px; */
 }
 hr{
     color:rgba(128, 128, 128, 0.701);
 }
 .down_section .pwd{
     line-height: 35px;
-    /* height: 55px; */
     margin-left: 70px;
     border:none;
     font-size: 24px;
