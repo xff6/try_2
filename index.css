@@ -1,10 +1,3 @@
-html,body{
-    height:100vh;
-    overflow:hidden;
-}
-div,body{
-    margin:0px;
-}
 .container{
     width: 375px;
     margin:0 auto;
@@ -41,35 +34,41 @@ div,body{
     background-color:white;
     position:absolute;
 }
+.down_section form div{
+    margin:11px;
+    border-bottom:2px solid rgba(128, 128, 128, 0.36);
+}
 .down_section ::placeholder{
     font-size: 16px;
 }
 .down_section .login{
     line-height: 35px;
     border:none;
-    font-size: 24px;
+    font-size: 16px;
     margin-top: 65px;
     margin-left:70px;
+    outline: none;
 }
 
 .down_section .login1{
     padding-left: 25px;
     position: absolute;
-    top: 76px;
+    top: 85px;
 }
 .down_section .pwd1{
     padding-left: 25px;
     position: absolute;
-    top: 130px;
+    top: 134px;
 }
 hr{
-    color:rgba(128, 128, 128, 0.701);
+    color:rgba(128, 128, 128, 0.293);
 }
 .down_section .pwd{
     line-height: 35px;
     margin-left: 70px;
     border:none;
-    font-size: 24px;
+    font-size: 16px;
+    outline: none;
 }
 .down_section a:focus{
     outline: none;
